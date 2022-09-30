@@ -1,0 +1,30 @@
+{
+  "name": "tech-notes-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tygitty/tech-notes-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tygitty/tech-notes-repo/issues"
+  },
+  "homepage": "https://github.com/Tygitty/tech-notes-repo#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "date-fns": "^2.29.3",
+    "express": "^4.18.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
